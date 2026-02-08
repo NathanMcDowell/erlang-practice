@@ -5,7 +5,7 @@
 %     io:format("Hello, Erlang!~n").
 
 main() ->
-    find_factorial(306250).
+    find_factorial(22).
 
 factorial(0) -> 1;
 factorial(N) when N > 0 -> N * factorial(N - 1).
